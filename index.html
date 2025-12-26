@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ExpressVPN</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    .main1{
+      
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+    }
+    .sub11{
+      
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+    }
+    .sub11 img{
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    .sub12{
+      color: rgb(0, 0, 0);
+      position: absolute;
+      font-size: x-large;
+      top: 3vh;
+      right: 10vw;
+      
+    }
+    .sub12 td{
+      padding-right: 80px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .sub13{
+      color: rgb(0, 0, 0);
+      
+      position: absolute;
+      font-size: x-large;
+      top: 20vh;
+      left: 30vw;
+      width: 50vw;
+      height: 50vh;
+    }
+    .sub13 h2{
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      font-size: 71px;
+      color: #07153a;
+    }
+    .sub13 p{
+      text-align: center;
+      font-family:'Times New Roman', Times, serif;
+      font-size:xx-large;
+      color: #01081c;
+    }
+    .sub13 button{
+      margin-left: 300px;
+      background-color: rgb(3, 61, 3);
+      border-radius: 20px;
+      height: 40px;
+      width: 15vw;
+      font-size: 18px;
+      color: rgb(210, 210, 202);
+    }
+     .sub14{
+      color: rgb(202, 31, 31);
+      position: absolute;
+      font-size: xx-large;
+      top: 3vh;
+      left: 5vw;
+      
+      
+      
+    }
+    .sub14 td{
+      padding-right: 80px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+     .main2{
+      top:100vh;
+      background-color: rgb(38, 151, 151);
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+     }
+     .sub21{
+      top: 100vh;
+      background-color: #d4ccb4;
+      width: 100vw;
+      height: 150vh;
+      position: absolute;
+      left: 0px;
+      padding: 80px;
+    }
+    .sub21 img{
+      width: 30vw;
+      height: 35vh;
+      
+    }
+    .sub22{
+      color: rgb(0, 0, 0);
+    
+      position: absolute;
+      font-size: x-large;
+      top: 110vh;
+      right: 5vw;
+      width: 50vw;
+      height: 50vh;
+    }
+    .sub22 h2{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: xx-large;
+
+    }
+    .sub22 p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: medium;
+    }
+     .sub22 button{
+      margin-right: 10px;
+      background-color: rgb(3, 61, 3);
+      color: rgb(241, 239, 237);
+      border-radius: 20px;
+      height: 35px;
+      width: 10vw;
+    }
+    .sub23{
+      color: rgb(0, 0, 0);
+      
+      position: absolute;
+      font-size: x-large;
+      top: 160vh;
+      left: 5vw;
+      width: 50vw;
+      height: 50vh;
+    }
+    .sub23 h2{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: xx-large;
+    }
+    .sub23 p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: medium;
+    }
+
+     
+    .sub24{
+      top: 145vh;
+      padding: 80px;
+      width: 50vw;
+      height: 50vh;
+      position: absolute;
+      right: 0px;
+      
+    }
+    .sub24 img{
+      width: 30vw;
+      height: 35vh;
+      
+    }
+    .sub25{
+      top: 200vh;
+      padding: 80px;
+      width: 50vw;
+      height: 50vh;
+      position: absolute;
+      left: 0px;
+      
+    }
+    .sub25 img{
+      width: 30vw;
+      height: 35vh;
+       
+    }
+    .sub26{
+      color: rgb(0, 0, 0);
+      
+      position: absolute;
+      font-size: x-large;
+      top: 210vh;
+      right: 5vw;
+      width: 50vw;
+      height: 50vh;
+      border: #1a7f6b;
+    }
+
+.sub26 a {
+    color: #1a7f6b;
+    position: absolute;
+    text-decoration: underline;
+    font-size: medium;
+    margin-left: -40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub26 a:hover {
+    text-decoration: underline;
+}
+    .sub26 h2{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: xx-large;
+    }
+    .sub26 p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: medium;
+    }
+     .sub26 button{
+      margin-left: 10px;
+      background-color: rgb(3, 61, 3);
+      border-radius: 20px;
+      height: 35px;
+      width: 10vw;
+      color: #ffffff;
+    }
+    
+
+    
+    .main3{
+            grid-template-columns: repeat(3,1fr);
+            display: grid;
+            gap: 0px;
+            padding: 130px;
+             top:150vh;
+             width: 100vw;
+             height: 100vh;
+             position: relative;
+            background-color: #d4ccb4;;
+      
+        }
+        .box{
+            
+            aspect-ratio: 1/1;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 75%;
+            
+            
+        }
+        .box img{
+            width: 90%;
+            height: 60%;
+            border: 3px;
+            
+        }
+        .one img{
+           width: 120%;
+            height: 48%;
+           
+            
+        }
+      
+        .box h2{
+            color: rgb(0, 2, 3);
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        .box p{
+            
+           
+            font-size:small;
+            color: rgb(37, 23, 23);
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .main4{
+    top: 120vh;
+    border: #1a7f6b;
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+}
+
+.main4 a {
+    color: #1a7f6b;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    text-decoration: underline;
+    margin-left: -90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main4 a:hover {
+    text-decoration: underline;
+}
+.main5{
+  width: 100vw;
+  height: 100vh;
+  top: 330vh;
+  position: absolute;
+  background-color: #b7ad91;;
+}
+.box1{
+  
+  width: 80vw;
+  height: 90vh;
+  top: 5vh;
+  left: 10vw;
+  position: absolute;
+  border-radius: 2px;
+  
+}
+.box1 img{
+  width: 60vw;
+  height: 80vh;
+  padding-top: 15vh;
+  margin-left: 0vw;
+}
+.box2{
+  
+  width: 80vw;
+  height: 20vh;
+  top: 5vh;
+  left: 10vw;
+  position: absolute;
+}
+.box2 h2{
+  top: 2vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 38px;
+  padding-top: 1vh;
+  color: #081434;
+}
+.main5 a {
+    color: #1a7f6b;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    text-decoration: underline;
+    margin-left: -170px;
+    font-family: 'Times New Roman', Times, serif;
+    top: 80vh;
+}
+.subin{
+  width: 50vw;
+  height: 50vh;
+  
+  position: absolute;
+  top: 50vh;
+  left: 17vw;
+  object-fit: cover;
+}
+.subin img{
+  width: 50vw;
+  height: 50vh;
+  overflow: hidden;
+}
+
+
+  </style>
+
+<div class="main1">
+        <div class="sub11">
+          
+           <img src="https://ftr.imgix.net/FQBOc9Uh5e22pHikmfCJR/3ce3022343c7ad918545a6a2e01f36b5/homepage-pingzhu-hero-bg-opt-v2.jpg?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=1920&s=ae7331908c13b70917d2f5b72adea99b"
+           alt="">
+          </div>
+          <div class="subin">
+            <img src="https://ftr.imgix.net/3EOOAeQsNMQBJkX2HPZqJn/7b4c25bcca074a531f74bbda530f87df/homepage-pingzhu-hero-figures-v2-opt__1___3_.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=016eb14da2e70c8bc93b13a566764d26%22"
+          alt="">
+        </div>
+        <div class="sub12">
+            <table>
+                <tr>
+                    <td>🌐English ▼</td>
+                    
+                </tr>
+            </table>
+        </div>
+        <div class="sub13">
+          <br>
+          <h2>The VPN that just works</h2>
+          <br>
+          <p>Go further with the #1 trusted leader in VPN</p>
+          <br>
+          <button>Get ExpressVPN →</button>
+          
+        </div>
+         <div class="sub14">
+            <table>
+                <tr>
+                    <td>ExpressVPN</td>
+                    
+                </tr>
+            </table>
+        </div>
+        <div class="main">
+        <div class="sub21">
+             <img src="https://ftr.imgix.net/11AcQtchrMiZrKGz4ZRirN/7e44386a57d14027cc0924743d9567c4/brickwall-peek-through-with-cursor-opt.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=db20117586efc3781d59637d02d25e6b" alt="">
+        </div>
+        <div class="sub22">
+          <center><br>
+             <h2>Secure access,</h2>
+                <h2>worldwide</h2><br>
+                <p>Connect reliably from anywhere, to anywhere. Our network of high-speed
+                servers across 94 countries puts you in control.</p><br>
+                <button>Get ExpressVPN</button>
+             </center>
+        </div>
+        <div class="sub23">
+            <center><br>
+             <h2>One click to a safer internet</h2>
+                <br>
+                <p>Going online doesn't have to mean being exposed. Whether
+                you're shopping from your desk or just connecting at a cafe,
+                <p>keep your personal information more private and secure.</p>
+             </center>
+        </div>
+        <div class="sub24">
+             <img src="https://ftr.imgix.net/2FqWXTKJh6g8PxBeOWwL1s/3a171e98ef364e47b22d0b90ef259478/unexposed-internet-lamp-opt.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=3c0d1ff289a55e693e2d29506993c13b" alt="">
+        </div>
+        <div class="sub25">
+             <img src="https://ftr.imgix.net/4Hq0c6NKQtQpx4YOqPQCSB/d83bf26253974e69bdbeeed208d912ac/extend-your-coverage-with-a-vpn.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=720&s=851aad461e18fd68578b30d729d1be01" alt="">
+        </div>
+         <div class="sub26">
+            <center><br>
+             <h2>Use ExpressVPN on every deivce</h2><br>
+                <p>Phone, tablet, computer, router-no matter wherre you are or
+                what device you're using, a single ExpressVPN subscription
+                has got you covered.</p>
+               
+<br>
+                <a href="#">See all apps>&gt;</a><br>
+             <br><button>Get ExpressVPN</button>
+             </div>
+        
+             </center>
+        </div>
+        </div>
+        <div class="main3">
+        <div class="box one"><center>
+            <br><br>
+            <img loading="lazy" width="440" height="224"
+                                src="https://ftr.imgix.net/6okBylTKqGv0FRM9yHPXs1/4a466e256a43ce031b3e0ebb0a1dbe28/serious-security.png?auto=format%2Ccompress&amp;cs=srgb&amp;fit=max&amp;q=60&amp;w=440&amp;s=03916fc216e037c4337d577eb77127f4"
+                                srcset="https://ftr.imgix.net/6okBylTKqGv0FRM9yHPXs1/4a466e256a43ce031b3e0ebb0a1dbe28/serious-security.png?auto=format%2Ccompress&amp;cs=srgb&amp;fit=max&amp;q=60&amp;w=440&amp;s=03916fc216e037c4337d577eb77127f4 440w,https://ftr.imgix.net/6okBylTKqGv0FRM9yHPXs1/4a466e256a43ce031b3e0ebb0a1dbe28/serious-security.png?auto=format%2Ccompress&amp;cs=srgb&amp;fit=max&amp;q=60&amp;w=720&amp;s=bfb3248b665ab05391c3ed97a5d26f4d 720w"
+                                alt="Secure green lock."><br><br>
+
+            <h2>Stronger Data Protection </h2>
+            <br><p>Take charge of your online privacy and security with best-in-class encryption.</p>
+       </div>
+        <div class="box">
+            <br><br>
+            <img loading="lazy" width="440" height="224"
+                                src="https://ftr.imgix.net/5F2ySeLBognoZIJQNjyAot/71dd6fe83c1cc08ffa2dacde0759e39e/be-anywhere.png?auto=format%2Ccompress&amp;cs=srgb&amp;fit=max&amp;q=60&amp;w=440&amp;s=cb038f2398ef8c5b33352a2d14590673"
+                                srcset="https://ftr.imgix.net/5F2ySeLBognoZIJQNjyAot/71dd6fe83c1cc08ffa2dacde0759e39e/be-anywhere.png?auto=format%2Ccompress&amp;cs=srgb&amp;fit=max&amp;q=60&amp;w=440&amp;s=cb038f2398ef8c5b33352a2d14590673 440w,https://ftr.imgix.net/5F2ySeLBognoZIJQNjyAot/71dd6fe83c1cc08ffa2dacde0759e39e/be-anywhere.png?auto=format%2Ccompress&amp;cs=srgb&amp;fit=max&amp;q=60&amp;w=720&amp;s=3f84a447b3fc990628ec0e11e89e641f 720w"
+                                alt="Be anywhere globe location marker."><br>
+            <h2>Works seamlessly everywhere</h2>
+            <br><p>Experience the internet the way it’s meant to be. On the go, or on your couch.</p>
+       </div>
+        <div class="box">
+            <br><br>
+            <img loading="lazy" width="440" height="224"
+                                src="https://ftr.imgix.net/uoPgq1HAqZRS3jE7tdH0t/b4a797aa617cc7cbc03545217687fad9/blazing-fast-speeds.png?auto=format%2Ccompress&amp;cs=srgb&amp;fit=max&amp;q=60&amp;w=440&amp;s=52a021dbca8531a66c068b5a01ec498b"
+                                srcset="https://ftr.imgix.net/uoPgq1HAqZRS3jE7tdH0t/b4a797aa617cc7cbc03545217687fad9/blazing-fast-speeds.png?auto=format%2Ccompress&amp;cs=srgb&amp;fit=max&amp;q=60&amp;w=440&amp;s=52a021dbca8531a66c068b5a01ec498b 440w,https://ftr.imgix.net/uoPgq1HAqZRS3jE7tdH0t/b4a797aa617cc7cbc03545217687fad9/blazing-fast-speeds.png?auto=format%2Ccompress&amp;cs=srgb&amp;fit=max&amp;q=60&amp;w=720&amp;s=3769fd7122b6b19da2e9746f14168e72 720w"
+                                alt="Speedometer."><br>
+            <h2>Lightning-quick connectivity</h2>
+            <br><p>Our VPN network is built for speed, powered by next-generation technology.</p></center>
+       </div>
+        </div>
+        <div class="main4">
+      <center>    
+    <a href="#">See more advantages &gt;</a></center>
+      </div>
+      <div class="main5">
+        <div class="box1">
+          <img src="HugeGlobal.svg" alt="">
+        </div>
+        <div class="box2">
+          <center>
+          <h2>Ultra-fast servers around the globe</h2>
+        <a href="#">See our full list of VPN server locations&gt;</a>
+      </center>
+        </div>
+      </div>
+       <!-- Stats -->
+      <div style="
+        width:250px;
+        padding:20px;
+        height: 100vh;
+        
+        position: absolute;
+        right: 5vw;
+        top:345vh
+      ">
+
+        <div style="margin-bottom:50px;">
+          <center>
+          <h1 style="margin:5px;color:#0a2540;font-family: 'Times New Roman', Times, serif;font-size: 60px;;">160</h1>
+          <p style="margin:5px; color:#555;font-family: 'Times New Roman', Times, serif;font-size: x-large;">Locations</p>
+        </div>
+
+        <div style="margin-bottom:50px;"><center>
+          <h1 style="margin:5px; color:#0a2540;font-family: 'Times New Roman', Times, serif;font-size: 60px;;">94</h1>
+          <p style="margin:5px; color:#555;font-family: 'Times New Roman', Times, serif;font-size: x-large;">Countries</p>
+        </div>
+
+        <div><center>
+          <h1 style="margin:5px; color:#0a2540;font-family: 'Times New Roman', Times, serif;font-size: 60px;">∞</h1>
+          <p style="margin:5px; color:#555;font-family: 'Times New Roman', Times, serif;font-size: x-large;">Unlimited bandwidth</p>
+          
+        </div>
+
+      </div>
+      
+    </div>
+        
+
+</body>
+</html>
